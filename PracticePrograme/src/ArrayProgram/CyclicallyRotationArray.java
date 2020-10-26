@@ -1,3 +1,10 @@
+
+
+Following are steps.
+1) Store last element in a variable say x.
+2) Shift all elements one position ahead.
+3) Replace first element of array with x.
+
 package ArrayProgram;
 
 public class CyclicallyRotationArray {
