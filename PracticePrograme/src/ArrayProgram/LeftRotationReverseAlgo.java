@@ -25,7 +25,7 @@ public class LeftRotationReverseAlgo {
 		        int temp;
 		        while (start < end) {
 		            temp = arr[start];
-		            System.out.println( temp+"........");
+		           // System.out.println( temp+"........");
 		            arr[start] = arr[end];
 		            arr[end] = temp;
 		           // System.out.println(  arr[end]+"........");
