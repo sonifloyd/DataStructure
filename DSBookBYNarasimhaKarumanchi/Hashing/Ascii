@@ -1,0 +1,20 @@
+Example
+Value	Character
+65	A
+97	a
+130	é
+169	©
+200+	various symbols
+----------------
+Printable Characters (32–127)
+✅ Digits
+'0' → 48
+'9' → 57
+✅ Uppercase Letters
+'A' → 65
+'Z' → 90
+✅ Lowercase Letters
+'a' → 97
+'z' → 122
+✅ Special Characters
+@ # $ % & * etc.
