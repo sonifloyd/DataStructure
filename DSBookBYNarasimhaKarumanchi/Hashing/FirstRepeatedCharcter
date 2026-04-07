@@ -1,0 +1,34 @@
+public class FirstRepeatedCharacter {
+
+    public static char firstRepeatedChar(char[] str) {
+        int[] count = new int[256];
+
+        // initialize array
+        for (int i = 0; i < 256; i++) {
+            count[i] = 0;
+        }
+
+        // find first repeated character
+        for (int i = 0; i < str.length; i++) {
+            if (count[str[i]] == 1) {
+                return str[i];
+            } else {
+                count[str[i]]++;
+            }
+        }
+
+        return '\0'; // no repeated character
+    }
+
+    public static void main(String[] args) {
+        char[] str = {'a', 'b', 'c', 'a', 'd'};
+
+        char result = firstRepeatedChar(str);
+
+        if (result == '\0') {
+            System.out.println("No repeated characters");
+        } else {
+            System.out.println("First repeated character: " + result);
+        }
+    }
+}
